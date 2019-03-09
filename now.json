@@ -1,0 +1,8 @@
+{
+    "name": "KR",
+    "version": 2,
+    "alias": "kr.veshkurov.pro",
+    "builds": [
+        { "src": "package.json", "use": "@now/static-build" }
+    ]
+}
