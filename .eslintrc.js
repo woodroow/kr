@@ -15,6 +15,7 @@ module.exports = {
       }
     },
     rules:{
+      "react/prop-types": 0,
       "linebreak-style": 0,
       'comma-dangle': [2, 'never'],
       'no-underscore-dangle': 0,

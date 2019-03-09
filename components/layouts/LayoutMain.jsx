@@ -1,14 +1,10 @@
-import React, { type Node } from 'react';
+import React from 'react';
 import styled from 'styled-components';
-
-type Props = {
-  children: Node
-};
 
 const LayoutMain = styled.div`
 `;
 
-export default ({ children }: Props) => (
+export default ({ children }) => (
   <LayoutMain>
     {children}
   </LayoutMain>
